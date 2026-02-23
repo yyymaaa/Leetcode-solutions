@@ -10,7 +10,7 @@ std::vector<int> solution(std::vector<int> &A, int K) {
     int N = A.size();
     if (A.empty()) return A;
 
-    K = K % N; // saves the computer form doing useless laps
+    K = K % N; // saves the computer from doing useless laps
     if (K == 0) return A;
 
     //LONG SOLUTION
