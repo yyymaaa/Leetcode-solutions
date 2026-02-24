@@ -10,7 +10,7 @@ int countResponseTimeRegressions(std::vector<int> responseTimes) {
     long long sum = responseTimes[0];
     int finalCount = 0;
   
-    for (int i = 1; i < responseTimes.size(); i++) {
+    for (size_t i = 1; i < responseTimes.size(); i++) {
         if (responseTimes[i] * (long long)i > sum) {
             finalCount++;
         }

@@ -30,7 +30,6 @@ int main() {
     int result = sumRootToLeaf(root);
     
     std::cout << "The total sum is: " << result << std::endl;
-    std::cout << "Expected: 5 (binary 10 + 11)" << std::endl;
 
     // Cleanup memory, a good habit
     delete leftChild;
