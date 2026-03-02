@@ -58,6 +58,7 @@ int minOperations(std::string s, int k) {
 
         return (dist[0] == INT_MAX) ? -1 : dist[0];
     }
+    
 int main() {
     std::cout << "Result: " << minOperations("0101", 3) << std::endl;
     std::cout << "Result 2: " << minOperations("110000000000000", 9) << std::endl;
