@@ -1,9 +1,6 @@
 #include <iostream>
 #include <cmath>
-//each string is made of 3 parts joined together
-//left side : exact copy of the previous string (Si-1)
-//middle : A single character
-//right side : Si-1 flipped and reversed
+
 char findKthBit(int n, int k) {
     if (n == 1) return '0';
     int length = (1 << n) - 1; 
