@@ -40,7 +40,6 @@ int maxDistincSubstringLenghtInSessions(std::string sessionString) {
 }
 
 int main() {
-    // Test Case: Two sessions "abcabcbb" and "pwwkew"
     std::string input = "abcabcbb*pwwkew"; 
     std::cout << "Max unique substring length: " << maxDistincSubstringLenghtInSessions(input) << std::endl;
     return 0;
